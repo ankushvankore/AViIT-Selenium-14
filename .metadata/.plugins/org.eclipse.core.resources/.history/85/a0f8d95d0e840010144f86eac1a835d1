@@ -1,0 +1,7 @@
+package com.LanguageBasics;
+
+public class D03AcceptData {
+	public static void main(String[] args) {
+		
+	}
+}

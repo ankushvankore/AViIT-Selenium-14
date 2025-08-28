@@ -1,0 +1,9 @@
+package com.LanguageBasics;
+
+public class D01HelloWorld {
+	public static void main(String[]args) {
+		System.out.println("Hello Amita & Trupti");
+		System.out.print("Welcome to Java!!!");
+		System.out.print("Good evening");
+	}
+}

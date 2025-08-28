@@ -1,0 +1,14 @@
+package com.LanguageBasics;
+
+public class D02DisplayVariables {
+	public static void main(String[]args)
+	{
+		int no1 = 99;
+		double avg = 78.9;
+		String name = "AViIT";
+		
+		System.out.println("Number: " + no1);
+		System.out.println("Average: " + avg);
+		System.out.println("Company: " + name);
+	}
+}
