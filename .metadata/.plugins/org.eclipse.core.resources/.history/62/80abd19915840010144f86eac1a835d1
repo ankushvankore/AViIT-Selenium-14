@@ -1,0 +1,17 @@
+package com.LanguageBasics;
+
+import java.util.Scanner;
+
+public class D05CalculateDiscount {
+
+	public static void main(String[] args) {
+		int amt;
+		double dis, net;
+		Scanner scn = new Scanner(System.in);
+		
+		System.out.println("Enter Amount: ");
+		amt = scn.nextInt();
+		
+	}
+
+}
