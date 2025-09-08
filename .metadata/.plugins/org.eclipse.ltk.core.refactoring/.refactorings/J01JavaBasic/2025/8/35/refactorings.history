@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;n&apos; in &apos;com.Loops.D01WhileDemo1.main(...)&apos; to &apos;i&apos;&#x0D;&#x0A;- Original project: &apos;J01JavaBasic&apos;&#x0D;&#x0A;- Original element: &apos;com.Loops.D01WhileDemo1.main(String[]).n&apos;&#x0D;&#x0A;- Renamed element: &apos;n&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;n&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.Loops{D01WhileDemo1.java[D01WhileDemo1~main~\[QString;@n!99!108!103!103!I!0!false" name="i" references="true" stamp="1756564043396" version="1.0"/>
+</session>

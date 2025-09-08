@@ -1,0 +1,16 @@
+package com.FunctionDemos;
+
+public class D01SimpleFunction {
+
+	/*
+	 public static <return type>name(arguments){
+	 	body of function;
+	 }
+	 */
+	public static 
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

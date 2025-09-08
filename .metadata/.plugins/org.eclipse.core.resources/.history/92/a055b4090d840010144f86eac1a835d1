@@ -1,8 +1,0 @@
-package com.LanguageBasics;
-
-public class D02DisplayVariables {
-	public static void main(String[]args)
-	{
-		
-	}
-}

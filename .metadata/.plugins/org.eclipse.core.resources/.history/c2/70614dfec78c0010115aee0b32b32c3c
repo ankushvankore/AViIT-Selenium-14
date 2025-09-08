@@ -1,0 +1,16 @@
+package com.FunctionDemos;
+
+public class D02PassingArguments {
+
+	public static void calculateAddition(int n1, int n2)
+	{
+		int sum = n1 + n2;
+		System.out.println("Sum: " + sum);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
