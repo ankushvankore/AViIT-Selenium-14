@@ -1,0 +1,38 @@
+package com.FunctionDemos;
+
+public class D06FunctionOverloading {
+
+	public static void calAddition(int n1, int n2, int n3)
+	{
+		int ans = n1 + n2 + n3;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calAddition(int n1, int n2)
+	{
+		int ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calAddition(double n1, double n2)
+	{
+		double ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calAddition(int n1, double n2)
+	{
+		double ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	public static void calAddition(double n1, int n2)
+	{
+		double ans = n1 + n2;
+		System.out.println("Answer: " + ans);
+	}
+	
+	public static void main(String[] args) {
+		calAddition(5, 6);
+		calAddition(56, 5.5);
+		calAddition(1, 2, 3);
+		
+	}
+
+}

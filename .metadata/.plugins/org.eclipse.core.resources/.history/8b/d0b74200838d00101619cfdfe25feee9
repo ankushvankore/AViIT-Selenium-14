@@ -1,0 +1,18 @@
+package com.FunctionDemos;
+
+public class D02PassingArguments {
+	public static void main(String[] args) {
+		calculateAddition(10, 20);
+
+		int no1 = 44, no2 = 55;
+		calculateAddition(no1, no2);		//Actual Parameters
+		
+		calculateAddition(5, 6);
+	}
+	
+	public static void calculateAddition(int no1, int no2)	//Formal Parameters / arguments
+	{
+		int sum = no1 + no2;
+		System.out.println("Sum: " + sum);
+	}
+}

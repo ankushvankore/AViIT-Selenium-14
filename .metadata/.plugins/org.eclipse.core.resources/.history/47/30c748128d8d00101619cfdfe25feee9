@@ -1,0 +1,9 @@
+package com.ArrayDemos;
+
+public class D01ArrayInitilization {
+
+	public static void main(String[] args) {
+		int[] marks = new int[5];
+	}
+
+}

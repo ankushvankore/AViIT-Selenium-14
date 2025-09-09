@@ -1,0 +1,15 @@
+package com.FunctionDemos;
+
+public class D05ReturningValueWithoutPassing {
+
+	public static int calculateSqure()
+	{
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

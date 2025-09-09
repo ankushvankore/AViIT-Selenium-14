@@ -2,10 +2,14 @@ package com.FunctionDemos;
 
 public class D02PassingArguments {
 
-	public static void calculateAddition(int no1, int no2)	//Formal Parameters / argumnets
+	public static void calculateAddition(int no1, int no2)	//Formal Parameters / arguments
 	{
 		int sum = no1 + no2;
 		System.out.println("Sum: " + sum);
+	}
+	public static void trial()
+	{
+		calculateAddition(5, 7);
 	}
 	
 	public static void main(String[] args) {
@@ -15,6 +19,6 @@ public class D02PassingArguments {
 		calculateAddition(no1, no2);		//Actual Parameters
 		
 		calculateAddition(5, 6);
+		trial();
 	}
-
 }
