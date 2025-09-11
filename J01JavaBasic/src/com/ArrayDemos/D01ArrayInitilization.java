@@ -3,7 +3,7 @@ package com.ArrayDemos;
 public class D01ArrayInitilization {
 
 	public static void main(String[] args) {
-		int[] marks = new int[5];
+		int[] marks = new int[5];	//Deceleration
 		marks[0] = 78;
 		marks[1] = 68;
 		marks[2] = 77;
