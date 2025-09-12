@@ -2,4 +2,7 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.ClassDemos.MyDate"/>
+    <fullyQualifiedTypeName name="com.FunctionDemos.D01SimpleFunction"/>
+    <fullyQualifiedTypeName name="com.ClassDemos.Employee"/>
 </qualifiedTypeNameHistroy>

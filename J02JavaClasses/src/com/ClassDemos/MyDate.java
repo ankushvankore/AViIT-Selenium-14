@@ -8,13 +8,14 @@ public class MyDate {
 
 	//Behavioral Abstraction / Member Functions
 	
-	public MyDate() {
-		day = 1;
-		month = "Jan";
-		year = 2025;
+	public MyDate() 				//Plain / Default / No Parameter Constructor
+	{
+		this.day = 1;
+		this.month = "Jan";
+		this.year = 2025;
 		System.out.println("Plain Constructor Called!!!");
 	}
-	public MyDate(int d, String m, int y)
+	public MyDate(int d, String m, int y)	//Parameterized Constructor
 	{
 		day = d;
 		month = m;
@@ -24,7 +25,7 @@ public class MyDate {
 	
 	public void setDay(int d)		//Setter function / Mutator function
 	{
-		day = d;
+		this.day = d;
 	}
 	public int getDay()				//Getter function / Accessor function
 	{
@@ -33,6 +34,6 @@ public class MyDate {
 	
 	public void displayDate()		//Facilitator function
 	{
-		System.out.println("Date is: " + day + "-" + month + "-" + year);
+		System.out.println("Date is: " + this.day + "-" + this.month + "-" + this.year);
 	}
 }

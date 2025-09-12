@@ -18,6 +18,8 @@ public class Client {
 		
 		MyDate d4 = new MyDate(31, "Jan", 2003);
 		d4.displayDate();
+		
+		MyDate d5 = new MyDate();
 	}
 
 }
