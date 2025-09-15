@@ -5,4 +5,5 @@
     <fullyQualifiedTypeName name="com.ClassDemos.MyDate"/>
     <fullyQualifiedTypeName name="com.FunctionDemos.D01SimpleFunction"/>
     <fullyQualifiedTypeName name="com.ClassDemos.Employee"/>
+    <fullyQualifiedTypeName name="com.InheritanceDemos.Manager"/>
 </qualifiedTypeNameHistroy>
