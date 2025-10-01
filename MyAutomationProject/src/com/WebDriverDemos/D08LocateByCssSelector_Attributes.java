@@ -13,8 +13,9 @@ public class D08LocateByCssSelector_Attributes {
 		
 		driver.get("https://www.facebook.com/");
 		
-		WebElement userName = driver.findElement(By.cssSelector("input[data-testid=\"royal-email\"]"));
-		userName.sendKeys("test@gmail.com");
+		//WebElement userName = driver.findElement(By.cssSelector("input[data-testid=\"royal-email\"]"));
+		//userName.sendKeys("test@gmail.com");
+		driver.findElement(By.cssSelector("input[data-testid=\"royal-email\"]")).sendKeys("test@gmail.com");
 		WebElement password = driver.findElement(By.cssSelector("input[type=\"password\"][data-testid=\"royal-pass\"]"));
 		password.sendKeys("Test@123");
 		WebElement loginBtn = driver.findElement(By.cssSelector("button[data-testid=\"royal-login-button\"]"));
