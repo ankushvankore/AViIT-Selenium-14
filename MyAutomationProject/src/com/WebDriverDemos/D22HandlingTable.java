@@ -2,6 +2,7 @@ package com.WebDriverDemos;
 
 import java.time.Duration;
 import java.util.List;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -28,7 +29,11 @@ public class D22HandlingTable {
 		List<WebElement>rows = driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr"));
 		System.out.println("Total no of Rows: " + rows.size());
 		
-		System.out.println(rows.get(90).getText());
+		Random rnd = new Random();
+		int n = rnd.nextInt(rows.size());
+		
+		System.out.println(rows.get(n).getText());
+		System.out.println(driver.findElement(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr["+(n+1)+"]")).getText());
 		
 		driver.close();
 	}
