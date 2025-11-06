@@ -23,6 +23,7 @@ public class Client {
 		ans = no1 - no2;
 		System.out.println(ans);
 		
+		PrintInfo p2 = r1;
 	}
 
 }
