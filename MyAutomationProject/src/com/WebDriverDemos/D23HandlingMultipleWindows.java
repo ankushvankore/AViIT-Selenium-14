@@ -26,7 +26,7 @@ public class D23HandlingMultipleWindows {
 		driver.findElement(By.xpath("//span[contains(text(), \"Remote\")]")).click();
 		System.out.println("Title: " + driver.getTitle());
 		
-		Set<String>windows = driver.getWindowHandles();
+		Set<String>windows = driver.getWindowHandles();	//Returns the id's of the windows 
 		//System.out.println(windows);
 
 		/*Object[]arr = windows.toArray();
