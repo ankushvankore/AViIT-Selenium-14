@@ -49,8 +49,9 @@ public class D28HandlingAlert {
 		alt.dismiss();			//Will click on Cancel button
 		System.out.println(driver.findElement(By.id("confirmResult")).getText());
 		
-		WebElement button4 = driver.findElement(By.id("promtButton"));
-		js.executeScript("arguments[0].click()", button4);
+		//WebElement button4 = driver.findElement(By.id("promtButton"));
+		//js.executeScript("arguments[0].click()", button4);
+		js.executeScript("arguments[0].click()", driver.findElement(By.id("promtButton")));
 		alt = driver.switchTo().alert();
 		alt.sendKeys("Amita");
 		Thread.sleep(2000);

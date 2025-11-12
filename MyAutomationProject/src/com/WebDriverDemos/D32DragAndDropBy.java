@@ -1,7 +1,6 @@
 package com.WebDriverDemos;
 
 import java.time.Duration;
-import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,28 +8,30 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class D29HoverMouse {
+public class D32DragAndDropBy {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-		driver.get("https://istqb.in/");
+		driver.get("https://jqueryui.com/");
 		
 		Actions act = new Actions(driver);
 		
-		// spMenu = driver.findElement(By.linkText("SPECIALIST"));
+		driver.findElement(By.partialLinkText("Slider")).click();
 		
-		//act.moveToElement(spMenu).perform();
-		act.moveToElement(driver.findElement(By.linkText("SPECIALIST"))).perform();
+		driver.switchTo().frame(0);
 		
-		List<WebElement>subMenus = driver.findElements(By.xpath("//*[@id=\"sp-menu\"]/div/nav/ul/li[6]/div/div/ul/li/a"));
+		WebElement slider = driver.findElement(By.xpath("//*[@id=\"slider\"]/span"));
 		
-		for(WebElement sm : subMenus)
-			System.out.println(sm.getText());
+		int x = slider.getLocation().x;
+		int y = slider.getLocation().y;
+		//Will return x & y co-ordinates of the control
 		
-		Thread.sleep(2000);
+		act.dragAndDropBy(slider, x+100, y).perform();
+		
+		Thread.sleep(5000);
 		driver.close();
 	}
 

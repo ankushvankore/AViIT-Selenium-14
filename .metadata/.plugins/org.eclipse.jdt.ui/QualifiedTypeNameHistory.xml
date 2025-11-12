@@ -22,7 +22,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.locators.RelativeLocator"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.FluentWait"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
@@ -35,5 +34,7 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.WindowType"/>
     <fullyQualifiedTypeName name="java.awt.Robot"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.interactions.Actions"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 </qualifiedTypeNameHistroy>
