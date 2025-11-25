@@ -2,36 +2,52 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-24T21:03:19 IST" name="Default suite" finished-at="2025-11-24T21:03:49 IST" duration-ms="29652">
+  <suite started-at="2025-11-25T20:44:08 IST" name="Default suite" finished-at="2025-11-25T20:44:28 IST" duration-ms="20393">
     <groups>
     </groups>
-    <test started-at="2025-11-24T21:03:19 IST" name="Default test" finished-at="2025-11-24T21:03:49 IST" duration-ms="29652">
-      <class name="com.TestNGDemos.D03Before_AfterTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.TestNGDemos.D03Before_AfterTest@c730b35]" started-at="2025-11-24T21:03:19 IST" name="launchBrowser" finished-at="2025-11-24T21:03:22 IST" duration-ms="3165" status="PASS">
+    <test started-at="2025-11-25T20:44:08 IST" name="Default test" finished-at="2025-11-25T20:44:28 IST" duration-ms="20393">
+      <class name="com.Assignments.LoginToOHRM">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:08 IST" name="beforeTest" finished-at="2025-11-25T20:44:15 IST" duration-ms="7690" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method signature="testNykaa()[pri:1, instance:com.TestNGDemos.D03Before_AfterTest@c730b35]" started-at="2025-11-24T21:03:23 IST" name="testNykaa" finished-at="2025-11-24T21:03:30 IST" duration-ms="7100" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="login1()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:15 IST" name="login1" finished-at="2025-11-25T20:44:18 IST" duration-ms="2252" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testNykaa -->
-        <test-method signature="testFirstCry()[pri:2, instance:com.TestNGDemos.D03Before_AfterTest@c730b35]" started-at="2025-11-24T21:03:30 IST" name="testFirstCry" finished-at="2025-11-24T21:03:35 IST" duration-ms="5636" status="PASS">
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:18 IST" name="logout" finished-at="2025-11-25T20:44:20 IST" duration-ms="2352" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFirstCry -->
-        <test-method signature="testAmazon()[pri:3, instance:com.TestNGDemos.D03Before_AfterTest@c730b35]" started-at="2025-11-24T21:03:35 IST" name="testAmazon" finished-at="2025-11-24T21:03:40 IST" duration-ms="4751" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="login2()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:20 IST" name="login2" finished-at="2025-11-25T20:44:22 IST" duration-ms="1900" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAmazon -->
-        <test-method signature="testBigBasket()[pri:4, instance:com.TestNGDemos.D03Before_AfterTest@c730b35]" started-at="2025-11-24T21:03:40 IST" name="testBigBasket" finished-at="2025-11-24T21:03:48 IST" duration-ms="7828" status="PASS">
+        </test-method> <!-- login2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:22 IST" name="logout" finished-at="2025-11-25T20:44:24 IST" duration-ms="2125" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBigBasket -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.TestNGDemos.D03Before_AfterTest@c730b35]" started-at="2025-11-24T21:03:48 IST" name="closeBrowser" finished-at="2025-11-24T21:03:49 IST" duration-ms="999" status="PASS">
+        </test-method> <!-- logout -->
+        <test-method signature="login3()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:24 IST" name="login3" finished-at="2025-11-25T20:44:26 IST" duration-ms="1830" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.TestNGDemos.D03Before_AfterTest -->
+        </test-method> <!-- login3 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:26 IST" name="logout" finished-at="2025-11-25T20:44:26 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="login4()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:26 IST" name="login4" finished-at="2025-11-25T20:44:27 IST" duration-ms="769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login4 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:27 IST" name="logout" finished-at="2025-11-25T20:44:27 IST" duration-ms="697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.Assignments.LoginToOHRM@36ebc363]" started-at="2025-11-25T20:44:27 IST" name="afterTest" finished-at="2025-11-25T20:44:28 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.Assignments.LoginToOHRM -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
