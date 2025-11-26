@@ -15,8 +15,8 @@ public class LoginToOHRM {
 
 	@Test
 	public void login1() {
-		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
-		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
+		driver.findElement(By.xpath("//input[@placeholder='username']")).sendKeys("Admin");
+		driver.findElement(By.xpath("//input[@placeholder='password']")).sendKeys("admin123");
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
 
