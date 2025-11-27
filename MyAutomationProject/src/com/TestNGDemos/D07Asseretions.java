@@ -18,8 +18,8 @@ public class D07Asseretions {
 	
 	@Test(dataProvider = "getLoginData")
 	public void login(String un, String ps) {
-		driver.findElement(By.xpath("//input[@placeholder='username']")).sendKeys(un);
-		driver.findElement(By.xpath("//input[@placeholder='password']")).sendKeys(ps);
+		driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(un);
+		driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 
 		actUrl = driver.getCurrentUrl();
