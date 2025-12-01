@@ -33,7 +33,6 @@ public class D02TestOnlineShoppingApps {
 	
 	@Test (priority = 3)
 	public void testAmazon() {
-		int no1;
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

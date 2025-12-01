@@ -1,57 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-11-27T19:13:56 IST" name="Default suite" finished-at="2025-11-27T19:14:30 IST" duration-ms="33204">
+  <suite started-at="2025-12-01T19:02:13 IST" name="Test Big Basket Links" finished-at="2025-12-01T19:02:20 IST" duration-ms="7145">
     <groups>
     </groups>
-    <test started-at="2025-11-27T19:13:56 IST" name="Default test" finished-at="2025-11-27T19:14:30 IST" duration-ms="33204">
-      <class name="com.TestNGDemos.D05BigBasketAssignment">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:13:56 IST" name="beforeTest" finished-at="2025-11-27T19:14:02 IST" duration-ms="5898" status="PASS">
+    <test started-at="2025-12-01T19:02:13 IST" name="Execute Class" finished-at="2025-12-01T19:02:20 IST" duration-ms="7145">
+      <class name="com.TestNGDemos.D08Parameterization">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@3754a4bf]" started-at="2025-12-01T19:02:13 IST" name="beforeTest" finished-at="2025-12-01T19:02:16 IST" duration-ms="3641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:02 IST" name="beforeMethod" finished-at="2025-11-27T19:14:11 IST" duration-ms="8788" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D08Parameterization@3754a4bf]" started-at="2025-12-01T19:02:16 IST" name="login" finished-at="2025-12-01T19:02:19 IST" duration-ms="2684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[student]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="clickExoticFruits()[pri:1, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:11 IST" name="clickExoticFruits" finished-at="2025-11-27T19:14:12 IST" duration-ms="594" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickExoticFruits -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:12 IST" name="afterMethod" finished-at="2025-11-27T19:14:14 IST" duration-ms="2723" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:14 IST" name="beforeMethod" finished-at="2025-11-27T19:14:19 IST" duration-ms="4736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="clickTea()[pri:2, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:19 IST" name="clickTea" finished-at="2025-11-27T19:14:20 IST" duration-ms="417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickTea -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:20 IST" name="afterMethod" finished-at="2025-11-27T19:14:22 IST" duration-ms="2633" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:22 IST" name="beforeMethod" finished-at="2025-11-27T19:14:27 IST" duration-ms="4284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="clickGhee()[pri:3, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:27 IST" name="clickGhee" finished-at="2025-11-27T19:14:27 IST" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickGhee -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:27 IST" name="afterMethod" finished-at="2025-11-27T19:14:29 IST" duration-ms="2099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D05BigBasketAssignment@54d9d12d]" started-at="2025-11-27T19:14:29 IST" name="afterTest" finished-at="2025-11-27T19:14:30 IST" duration-ms="527" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D08Parameterization@3754a4bf]" started-at="2025-12-01T19:02:19 IST" name="afterTest" finished-at="2025-12-01T19:02:20 IST" duration-ms="677" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D05BigBasketAssignment -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.TestNGDemos.D08Parameterization -->
+    </test> <!-- Execute Class -->
+  </suite> <!-- Test Big Basket Links -->
 </testng-results>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Test Big Basket Links">
+	<test name = "Execute Class">
+		<classes>
+			<class name = "com.TestNGDemos.D05BigBasketAssignment">
+			</class>
+			<class name = "com.TestNGDemos.D04Before_AfterMethod"></class>
+		</classes>
+	</test>
+</suite>

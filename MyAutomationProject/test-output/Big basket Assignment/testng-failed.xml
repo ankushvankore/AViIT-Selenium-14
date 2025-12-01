@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Big basket Assignment]">
+  <test thread-count="5" name="Execute Group(failed)">
+    <groups>
+      <run>
+        <include name="MilkProducts"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestNGDemos.D05BigBasketAssignment">
+        <methods>
+          <include name="clickNandini"/>
+          <include name="clickGhee"/>
+        </methods>
+      </class> <!-- com.TestNGDemos.D05BigBasketAssignment -->
+    </classes>
+  </test> <!-- Execute Group(failed) -->
+</suite> <!-- Failed suite [Big basket Assignment] -->

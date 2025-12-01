@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Test Big Basket Links">
+	<test name = "Execute Multiple Tests">
+		<classes>
+			<class name = "com.TestNGDemos.D05BigBasketAssignment">
+				<methods>
+					<include name = "clickGhee"></include>
+					<include name = "clickNandini"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
