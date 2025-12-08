@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-03T19:22:42 IST" name="Default suite" finished-at="2025-12-03T19:22:49 IST" duration-ms="7192">
+  <suite started-at="2025-12-08T19:02:12 IST" name="Default suite" finished-at="2025-12-08T19:02:25 IST" duration-ms="13377">
     <groups>
     </groups>
-    <test started-at="2025-12-03T19:22:42 IST" name="Default test" finished-at="2025-12-03T19:22:49 IST" duration-ms="7192">
+    <test started-at="2025-12-08T19:02:12 IST" name="Default test" finished-at="2025-12-08T19:02:25 IST" duration-ms="13377">
       <class name="com.TestNGDemos.D10POM_Client">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10POM_Client@408d971b]" started-at="2025-12-03T19:22:42 IST" name="beforeTest" finished-at="2025-12-03T19:22:48 IST" duration-ms="5736" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2025-12-08T19:02:12 IST" name="beforeTest" finished-at="2025-12-08T19:02:17 IST" duration-ms="4472" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="createUser()[pri:0, instance:com.TestNGDemos.D10POM_Client@408d971b]" started-at="2025-12-03T19:22:48 IST" name="createUser" finished-at="2025-12-03T19:22:49 IST" duration-ms="1306" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2025-12-08T19:02:17 IST" name="refreshPage" finished-at="2025-12-08T19:02:19 IST" duration-ms="2445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="createUser()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2025-12-08T19:02:19 IST" name="createUser" finished-at="2025-12-08T19:02:21 IST" duration-ms="1984" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10POM_Client@408d971b]" started-at="2025-12-03T19:22:49 IST" name="afterTest" finished-at="2025-12-03T19:22:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="refreshPage()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2025-12-08T19:02:21 IST" name="refreshPage" finished-at="2025-12-08T19:02:24 IST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshPage -->
+        <test-method signature="createUser2()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2025-12-08T19:02:24 IST" name="createUser2" finished-at="2025-12-08T19:02:25 IST" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser2 -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D10POM_Client@22555ebf]" started-at="2025-12-08T19:02:25 IST" name="afterTest" finished-at="2025-12-08T19:02:25 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

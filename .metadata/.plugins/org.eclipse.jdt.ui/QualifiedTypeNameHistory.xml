@@ -51,4 +51,6 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="com.TestNGDemos.D10POM_Client"/>
+    <fullyQualifiedTypeName name="com.TestNGDemos.RediffUtility"/>
 </qualifiedTypeNameHistroy>
