@@ -13,8 +13,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-import net.bytebuddy.description.type.TypeDescription.Generic.AnnotationReader.ForWildcardLowerBoundType;
-
 public class D12CreateFriendsData {
 	String fPath = "ExcelFiles\\FriendsData.xlsx";
 	File file;
