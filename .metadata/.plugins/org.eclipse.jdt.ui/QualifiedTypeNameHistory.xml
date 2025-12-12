@@ -52,6 +52,9 @@
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="com.TestNGDemos.D10POM_Client"/>
     <fullyQualifiedTypeName name="com.TestNGDemos.RediffUtility"/>
+    <fullyQualifiedTypeName name="net.bytebuddy.description.type.TypeDescription.Generic.AnnotationReader.ForWildcardLowerBoundType"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFShape"/>
+    <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
