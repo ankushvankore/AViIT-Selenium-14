@@ -13,7 +13,7 @@ public class D18Synchronization_ThreadSleep {
 		driver.get("https://www.redbus.in/");
 		
 		//From
-		driver.findElement(By.xpath("//*[@id=\"root\"]/main/div/div/search/div/div/div/div[1]/div[1]/div[1]/div/div/div[1]")).click();
+		//driver.findElement(By.xpath("//*[@id=\"root\"]/main/div/div/search/div/div/div/div[1]/div[1]/div[1]/div/div/div[1]")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.id("srcDest")).sendKeys("Kolh");
 		Thread.sleep(2000);

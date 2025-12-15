@@ -59,8 +59,7 @@ public class D13CreateLoginData {
 		wb = new XSSFWorkbook();
 		sheet = wb.createSheet("Login Data");
 		
-		sheet.createRow(in
-				dex).createCell(0).setCellValue("User Name");
+		sheet.createRow(index).createCell(0).setCellValue("User Name");
 		sheet.getRow(index).createCell(1).setCellValue("Password");
 		sheet.getRow(index).createCell(2).setCellValue("Result");
 		

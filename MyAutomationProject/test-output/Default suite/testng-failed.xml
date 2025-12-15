@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNGDemos.D13CreateLoginData">
+      <class name="com.Assignments.ForAssertion">
         <methods>
-          <include name="beforeTest"/>
-          <include name="afterTest"/>
-          <include name="f"/>
+          <include name="assertFailDemo"/>
+          <include name="softAssertionFailDemo1"/>
         </methods>
-      </class> <!-- com.TestNGDemos.D13CreateLoginData -->
+      </class> <!-- com.Assignments.ForAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
