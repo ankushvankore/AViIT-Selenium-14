@@ -46,12 +46,10 @@
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="com.TestNGDemos.D10POM_Client"/>
     <fullyQualifiedTypeName name="com.TestNGDemos.RediffUtility"/>
     <fullyQualifiedTypeName name="net.bytebuddy.description.type.TypeDescription.Generic.AnnotationReader.ForWildcardLowerBoundType"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
-    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFShape"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFRow"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFCell"/>
@@ -60,4 +58,6 @@
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
     <fullyQualifiedTypeName name="graphql.Assert"/>
     <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 </qualifiedTypeNameHistroy>
