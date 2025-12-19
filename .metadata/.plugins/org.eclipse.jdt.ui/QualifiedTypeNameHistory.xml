@@ -39,8 +39,6 @@
     <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
     <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
@@ -58,6 +56,8 @@
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
     <fullyQualifiedTypeName name="graphql.Assert"/>
     <fullyQualifiedTypeName name="org.testng.asserts.SoftAssert"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
 </qualifiedTypeNameHistroy>
