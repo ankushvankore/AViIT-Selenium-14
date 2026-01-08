@@ -7,10 +7,23 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
 public class S05GoogleLinks {
 	WebDriver driver;
+	
+	@Before
+	public void beforeHook() {
+		System.out.println("Before Hook Executed");
+	}
+	
+	//@After
+	public void closeBrowser() {
+		driver.close();
+	}
+	
 	@Given("Launch {string}")
 	public void launch(String url) {
 		driver = new ChromeDriver();

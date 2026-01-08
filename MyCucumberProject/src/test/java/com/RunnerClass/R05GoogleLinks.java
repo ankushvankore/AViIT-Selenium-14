@@ -8,7 +8,8 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/MyCucumberProject/MyCucumberProject/F05GoogleLinks.feature",
 					glue = "com.StepDef",
-					tags = "@GoogleLinks")
+					tags = "@GoogleLinks",
+					publish = true)
 public class R05GoogleLinks {
 	/*
 	 * Execute Single Scenario		tags = "@AdvtLink"
