@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTests.D06TestNG_Report">
+      <class name="com.WebTests.D11ForListnerDemo">
         <methods>
-          <include name="afterMethod"/>
+          <include name="test2"/>
+          <include name="test3"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="loginToOHRM_Fail"/>
-          <include name="loginToOHRM_Skip"/>
         </methods>
-      </class> <!-- com.WebTests.D06TestNG_Report -->
+      </class> <!-- com.WebTests.D11ForListnerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
